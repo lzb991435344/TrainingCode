@@ -39,7 +39,7 @@ void* memcpy(void* dst, const void* src, size_t len)
 	return ret;
 }
 
-//便面内存重叠,使用MyMemmove
+//避免内存重叠,使用MyMemmove
 void* MyMemmove(void* str1, void* str2,size_t n)
 {
 	char* pStr1 = (char*)str1;
