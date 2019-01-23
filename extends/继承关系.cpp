@@ -43,3 +43,13 @@ public:
 		printf("deC");
 	}
 };
+
+
+int main()
+{
+	/*A* a = new C();
+	delete a; //A B C deA */
+	getchar();
+	system("pause");
+	return 0;
+}
