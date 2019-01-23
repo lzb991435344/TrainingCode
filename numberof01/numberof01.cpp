@@ -37,8 +37,8 @@ int f(unsigned int n)
 }
 int main(void)
 {
-	int m = 1;
-	int n = 2;
+	unsigned int m = 1;
+	unsigned int n = 2;
 	cout << numberofOne(m)<<endl;
 	cout << numberofOne(n) << endl;
 
