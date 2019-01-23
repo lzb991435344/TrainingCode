@@ -65,9 +65,9 @@ void* MyMemmove(void* str1, void* str2,size_t n)
 int main()
 {
 
-	unsigned char i = 1;//8位，0~2^8-1
-	i -= 4;//-3
-	printf("%d", i); //2^8-3
+	//unsigned char i = 1;//8位，0~2^8-1
+	//i -= 4;//-3
+	//printf("%d", i); //2^8-3
 	getchar();
 	system("pause");
 	return 0;
